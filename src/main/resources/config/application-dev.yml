@@ -167,3 +167,9 @@ jhipster:
 # ===================================================================
 
 application:
+
+    blockchain:
+        username: 'random'
+        host: 'random'
+        port: 'random'
+        password: 'random'
