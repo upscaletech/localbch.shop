@@ -99,6 +99,13 @@
         </dependencies>
     </dependencyManagement>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -111,6 +118,11 @@
         <dependency>
             <groupId>io.dropwizard.metrics</groupId>
             <artifactId>metrics-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.SimplyUb</groupId>
+            <artifactId>MultiChainJavaAPI</artifactId>
+            <version>master</version>
         </dependency>
         <dependency>
             <groupId>io.dropwizard.metrics</groupId>
