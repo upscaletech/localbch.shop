@@ -31,7 +31,6 @@ Aims to be following
 - Using multisig for settlement in auction
 - Encrypted messaging 
 - Decentralized settlement.
-- Use of blockchain to store data.
 
 While keeping things in mind also that localbch also stays
 
