@@ -2,7 +2,7 @@
 
 ![Thanks to Joey Wong @BionicHacker][logo]
 
-[logo]: https://raw.githubusercontent.com/upscaletech/localbch.shop/master/logo.png "LocalBCH.shop"
+[logo]: https://raw.githubusercontent.com/upscaletech/localbch.shop/develop/logo.png "LocalBCH.shop"
 
 
 
