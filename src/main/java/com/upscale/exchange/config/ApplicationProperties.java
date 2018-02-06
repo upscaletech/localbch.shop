@@ -11,15 +11,11 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "application", ignoreUnknownFields = false)
 public class ApplicationProperties {
 
-    private final ApplicationProperties.Blockchain blockchain = new ApplicationProperties.Blockchain();
+    private final Blockchain blockchain = new Blockchain();
 
-
-    public ApplicationProperties() {
-
+    public Blockchain getBlockchain() {
+        return blockchain;
     }
-
-    public ApplicationProperties.Blockchain getBlockchain() {return this.blockchain;}
-
 
 
     public static class Blockchain {
@@ -62,10 +58,6 @@ public class ApplicationProperties {
 
         public void setPort(String port) {
             this.port = port;
-        }
-
-        public Blockchain() {
-
         }
 
 
